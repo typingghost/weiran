@@ -1,6 +1,6 @@
 // 未然网页版的离线缓存。页面先走网络、断网用缓存；音频第一次播放时在后台整段存下来，之后断网也能听。
 // 苹果的 Safari 播放音频时会按 Range 分段请求，所以从缓存回放时要自己切出 206 片段。
-const VERSION = 'fb5de0fcaa82';
+const VERSION = '16e12acfb75b';
 const SHELL = 'weiran-shell-' + VERSION;
 const AUDIO = 'weiran-audio-v1';
 const SHELL_FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
